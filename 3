@@ -1,7 +1,7 @@
-class kitty : public Farm_Animal
+class pig : public Farm_Animal
 {
 public:
-    kitty(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
+    pig(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
     void get_action(string object)
     {
         cout<<name<<' '<< feature<<' '<< object<<endl;
@@ -27,10 +27,10 @@ public:
         cout<<name<<' '<< feature<<' '<< object<<endl;
     }
 };
-class frog : public Farm_Animal
+class cow : public Farm_Animal
 {
 public:
-    frog(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
+    cow(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
     void get_action(string object)
     {
         cout<<name<<' '<< feature<<' '<< object<<endl;
