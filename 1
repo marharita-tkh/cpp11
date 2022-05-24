@@ -1,0 +1,19 @@
+class Animal
+{
+public:
+    string name,feature,sound;
+    Animal(string name,string feature= " ",string sound=" ")
+    {
+        this->name=name;
+        this->feature=feature;
+        this->sound=sound;
+    }
+    string get_sound()
+    {
+        return sound;
+    }
+    string get_action()
+    {
+        return feature;
+    }
+};
