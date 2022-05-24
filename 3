@@ -1,0 +1,38 @@
+class kitty : public Farm_Animal
+{
+public:
+    kitty(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
+    void get_action(string object)
+    {
+        cout<<name<<' '<< feature<<' '<< object<<endl;
+    }
+};
+class cock : public Farm_Animal
+{
+public:
+    cock(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){
+
+    };
+    void get_action(string object)
+    {
+        cout<<name<<' '<< feature<<' '<< object<<endl;
+    }
+};
+class dog : public Farm_Animal
+{
+public:
+    dog(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
+    void get_action(string object)
+    {
+        cout<<name<<' '<< feature<<' '<< object<<endl;
+    }
+};
+class frog : public Farm_Animal
+{
+public:
+    frog(string name,string feature,string sound,vector<string>resource): Farm_Animal(name,feature,sound, resource){};
+    void get_action(string object)
+    {
+        cout<<name<<' '<< feature<<' '<< object<<endl;
+    }
+};
